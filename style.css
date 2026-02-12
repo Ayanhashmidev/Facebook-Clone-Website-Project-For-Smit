@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F4F7;
+    font-family: Arial, sans-serif;
+}
+
+/* Center layout */
+.Header {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.Text img {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+/* Form box */
+.Full-input {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Inputs */
+.input input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Login button */
+.btn button {
+    width: 100%;
+    height: 40px;
+    background-color: #0866FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #055ce7;
+}
+
+/* Link */
+.link {
+    margin: 10px 0;
+}
+
+.link a {
+    color: #0866FF;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.Last-btN button {
+    padding: 12px 20px;
+    background-color: #36A420;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.Last-btN button:hover {
+    background-color: #188103;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .Text img {
+        width: 240px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .Full-input {
+        margin: 0 15px;
+    }
+}
