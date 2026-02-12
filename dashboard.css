@@ -3,13 +3,15 @@ margin: 0%;
 padding: 0%;
 }
 
-
+body {
+    background-color: #F2F4F7;
+}
 
 .navbar {
 display: flex;
 align-items: center;
 padding: 10px;
-
+background-color: #Ffff;
 }
 
 .first-div {
@@ -18,7 +20,7 @@ gap: 20px;
 }
 
 .first-div > img {
-width: 50px;
+width: 45px;
 }       
 
 .first-div > input {
