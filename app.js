@@ -42,3 +42,4 @@ const loginHandler = () => {
 };
 
 loginBtn.addEventListener("click", loginHandler);
+
