@@ -34,8 +34,10 @@ padding-right: 50px;
 .Center-icons {
     display: flex;
     gap: 30px;
-    align-items: center;
-    justify-content: center;
+    font-size: 30px;
+    padding-left: 350px;
+
 }
 .Center-icons > i {
+
 }
