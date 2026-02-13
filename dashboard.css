@@ -27,5 +27,15 @@ width: 45px;
 border-radius: 30px;
 text-align: center;
 background-color: #F0F2F5;
-
+padding-right: 50px;
 } 
+
+
+.Center-icons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.Center-icons > i {
+}
