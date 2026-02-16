@@ -10,7 +10,7 @@ body {
 .navbar {
 display: flex;
 align-items: center;
-padding: 10px;
+padding: 0px 10px;
 background-color: #Ffff;
 }
 
@@ -27,7 +27,9 @@ width: 45px;
 border-radius: 30px;
 text-align: center;
 background-color: #F0F2F5;
-padding-right: 50px;
+padding-right: 60px;
+border: #F2F4F7;
+font-size: medium;
 } 
 /* 
 
@@ -47,7 +49,7 @@ padding-right: 50px;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding-left: 270px;
+  padding-left: 240px;
 }
 
 .header-center > div {
@@ -90,7 +92,7 @@ padding-right: 50px;
   justify-content: flex-end;
   gap: 10px;
   padding: 10px 0;
-  padding-left: 240px;
+  padding-left: 250px;
 }
 
 .header-right .header-right-icons,
