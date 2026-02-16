@@ -31,18 +31,6 @@ padding-right: 60px;
 border: #F2F4F7;
 font-size: medium;
 } 
-/* 
-
-.Center-icons {
-    display: flex;
-    gap: 30px;
-    font-size: 30px;
-    padding-left: 350px;
-
-}
-.Center-icons > i {
-
-} */
 
 .header-center {
   display: flex;
